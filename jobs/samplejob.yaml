@@ -1,0 +1,4 @@
+- job-template:
+    name: '{name}-{pyver}'
+    builders:
+      - shell: 'git co {branch_name}'
